@@ -1,16 +1,70 @@
-# news_app
+# Mobile Application Development Course Project
 
-A new Flutter project.
+![UI](img/ui.png)
 
-## Getting Started
+## #EN
 
-This project is a starting point for a Flutter application.
+Erciyes University Computer Engineering  
+Mobile Application Development  
+Asst. Prof. Fehim KÖYLÜ  
 
-A few resources to get you started if this is your first Flutter project:
+This project is a mobile application that fetch news from an API and presents it to the user in the interface using Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Pull news from API  
+- Listing news  
+- View news details  
+- Modern and user-friendly interface
+
+### Requirements
+
+- Flutter 
+- Dart 
+
+### How to Run
+
+```
+git clone https://github.com/serdarcubuk/News-Flutter-Mobile-App.git  
+
+cd News-Flutter-Mobile-App
+
+flutter pub get  
+
+flutter run
+```
+
+## #TR
+
+Erciyes üniversitesi Bilgisayar Mühendisliği  
+Mobil Uygulama Geliştirme    
+Dr. Öğr. Üyesi Fehim KÖYLÜ
+
+
+Bu proje, haberleri bir API'den çekip, Flutter kullanarak kullanıcıya arayüzde sunan bir mobil uygulamadır.
+
+### Özellikler
+
+- API'den haberleri çekme  
+- Haberleri listeleme  
+- Haber detaylarını görüntüleme  
+- Modern ve kullanıcı dostu arayüz  
+
+### Gereksinimler
+- Flutter 
+- Dart 
+
+### Kurulum
+
+```
+git clone https://github.com/serdarcubuk/News-Flutter-Mobile-App.git  
+
+cd News-Flutter-Mobile-App
+
+flutter pub get  
+
+flutter run
+```
+---
+Ahmet Serdar ÇUBUK  
+1030521039

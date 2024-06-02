@@ -16,6 +16,7 @@ class NewsProvider with ChangeNotifier {
       if (response.statusCode == 200) {
         final extractedData = json.decode(response.body)['articles'] as List;
         _articles = extractedData
+            .where((articleData) => articleData['author'] != null)
             .map((articleData) => Article.fromJson(articleData))
             .toList();
         notifyListeners();

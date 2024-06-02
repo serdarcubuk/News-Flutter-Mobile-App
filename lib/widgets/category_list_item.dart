@@ -8,8 +8,7 @@ class CategoryListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      title: Text(category),
+    return GestureDetector(
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
@@ -17,6 +16,22 @@ class CategoryListItem extends StatelessWidget {
           ),
         );
       },
+      child: Container(
+        margin: EdgeInsets.all(8.0),
+        padding: EdgeInsets.all(16.0), // İçeriğe ek boşluk ekleyin
+        height: 170.0, // Kutunun yüksekliğini ayarlayın
+        decoration: BoxDecoration(
+          color: Colors.blue,
+          borderRadius: BorderRadius.circular(10.0),
+        ),
+        child: Center(
+          child: Text(
+            category,
+            style: TextStyle(color: Colors.white, fontSize: 30),
+            textAlign: TextAlign.center, // Metni ortalayın
+          ),
+        ),
+      ),
     );
   }
 }
