@@ -23,3 +23,8 @@ class Article {
     );
   }
 }
+
+/* JSON formatında gelen verileri Article sınıfının bir nesnesine dönüştürmek için kullanılır. 
+sınıf, haber makalesinin başlığı, açıklaması, URL'si, görüntü URL'si ve içeriği gibi bilgileri tutar 
+ve bu bilgileri JSON formatından okuyarak nesneye dönüştürür.
+*/

@@ -34,3 +34,8 @@ class CategoryScreen extends StatelessWidget {
     );
   }
 }
+
+/* belirli bir haber kategorisine ait makaleleri görüntüleyen bir ekran oluşturur.
+Kullanıcı belirli bir kategoriye tıkladığında, CategoryScreen açılır ve bu kategoriye ait haberleri çeker. 
+FutureBuilder ve Consumer widget'ları kullanılarak haberler asenkron olarak yüklenir ve kullanıcıya gösterilir. 
+*/

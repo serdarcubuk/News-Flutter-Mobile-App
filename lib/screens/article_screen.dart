@@ -38,3 +38,6 @@ class ArticleScreen extends StatelessWidget {
   }
 }
 
+/* bir haber makalesinin detaylarını (başlık, açıklama, içerik ve varsa bir görüntü) gösteren bir ekran oluşturur. 
+Kullanıcı bir makale seçtiğinde, ArticleScreen açılır ve seçilen makale ile ilgili bilgileri kullanıcıya gösterir.
+*/

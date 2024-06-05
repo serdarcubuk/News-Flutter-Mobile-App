@@ -21,3 +21,15 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
+/* Bu kod, bir haber uygulamasının ana ekranını tanımlar.
+Ana ekran, üstte bir başlık çubuğu (AppBar) ve alt kısımda dört kategori öğesinden 
+(Technology, Sports, Health, Business) oluşan bir liste (ListView) içerir. Her kategori öğesi,
+kullanıcıya bu kategoriye ait haberleri göstermek için kullanılabilecek bir CategoryListItem widget'ı kullanılarak temsil edilir.
+*/
+
+
+
+
+
+

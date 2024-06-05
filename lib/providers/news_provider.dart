@@ -28,3 +28,8 @@ class NewsProvider with ChangeNotifier {
     }
   }
 }
+
+/* Flutter uygulamanızda haberleri dinamik olarak çekmek ve kullanıcı arayüzüne yansıtmak için kullanılır. 
+Haber verileri bir API'den çekilir, Article nesnelerine dönüştürülür ve değişiklikler dinleyicilere bildirilir. 
+Bu, Flutter'ın ChangeNotifier yapısıyla birlikte kullanılarak UI'nin güncellenmesini sağlar.
+*/

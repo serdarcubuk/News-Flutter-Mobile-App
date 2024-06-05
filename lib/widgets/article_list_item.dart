@@ -32,3 +32,8 @@ class ArticleListItem extends StatelessWidget {
   }
 }
 
+/* bir haber makalesini liste öğesi olarak gösterir ve bu öğeye tıklanabilirlik ekler. 
+Kullanıcı bu liste öğesine tıkladığında, ilgili makale detaylarını gösteren ArticleScreen açılır. 
+Bu, kullanıcının belirli bir haber makalesinin detaylarını görmesini sağlar. Hero widget'ı, 
+görüntülerin animasyonlu geçişi için kullanılır, bu da kullanıcı deneyimini daha akıcı hale getirir.
+*/

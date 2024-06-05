@@ -35,3 +35,7 @@ class CategoryListItem extends StatelessWidget {
     );
   }
 }
+
+/*Bu kod, bir haber kategorisini liste öğesi olarak gösterir ve bu öğeye tıklanabilirlik ekler. 
+Kullanıcı bu öğeye tıkladığında, ilgili kategoriye ait haberlerin listelendiği CategoryScreen açılır.
+*/
